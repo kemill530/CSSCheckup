@@ -1,0 +1,55 @@
+body{
+    background-image: url(./assets/Noisy-Grid-Seamless-Pattern-For-Website-Background.jpg);
+}
+
+.wrapper {
+    margin: 5px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.colorexample {
+    position: relative;
+    text-align: center;
+    border: 4px dashed lightslategrey;
+    width: 100%;
+    height: 100px;
+}
+
+.magenta {
+    position: absolute;
+    left: 0;
+    width: 80%;
+    height: 100px;
+    background-color: #BB2649;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.peri {
+    position: absolute;
+    left: 80%;
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    background-color: #6667AB;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;   
+}
+
+.textbox {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.textbox li {
+    font-style: italic;
+    color: darkslategray;
+}
+
+#end {
+    position: fixed;
+    bottom: 25;
+    right: 0;
+    background: linear-gradient(90deg, rgb(156, 217, 248), rgb(235, 228, 152));
+    height: 15px;
+    padding: 15px; 
+    border: 4px groove rgb(39, 125, 82)
+}
